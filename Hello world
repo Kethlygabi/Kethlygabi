@@ -1,0 +1,19 @@
+import turtle as t
+
+t.width(2)
+
+def form(×, color):
+t.pencolor(color)
+t.begin_fill()
+t.fillcolor(color)
+t.circule(100,×)
+t.up()
+t.goto(0,0)
+t.down()
+def color_form(size, color , rad):
+for i in range (0,360, 90): 
+form(size, color)
+
+color_form(100,"#9AB620", 0)
+color_form(80",#9AB28", 0)
+color_form(60,"#9AB6228", 0)
